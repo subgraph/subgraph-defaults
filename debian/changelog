@@ -1,0 +1,22 @@
+subgraph-defaults (0.8) unstable; urgency=medium
+
+  * Disabled Nautilus 'automatic-decompression' and 'install-mime-activation'
+     gsettings
+  * Added onionshare and ricochet-im to preferred applications, dropped
+     others
+  * Switched from unsupport Droid fonts to Noto fonts
+
+ -- David McKinney <mckinney@subgraph.com>  Sat, 18 Mar 2017 17:04:02 -0400
+
+subgraph-defaults (0.7) unstable; urgency=medium
+
+  * Initial release. 
+  * Merged in old gsettings (tracker settings not included, need to be
+    converted) 
+  * Changed copyright info 
+  * Changed background and screensaver image 
+  * Removed pidgin from preferred applications, replaced with coyim 
+  * Added vlc to preferred applications 
+  * Added subgraph-triangulated wallpaper and lockscreen art 
+
+ -- David McKinney <mckinney@subgraph.com>  Sun, 07 Feb 2016 23:27:36 +0000

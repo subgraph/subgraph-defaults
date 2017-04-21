@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper>
+    <!-- don't include words such as "wallpaper" (avoids translations) -->
+    <name>Traingulated</name>
+    <filename>/usr/share/images/desktop-base/subgraph-triangulated.xml</filename>
+    <options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper>
+    <name>Triangulated lock screen</name>
+    <filename>/usr/share/images/desktop-base/subgraph-triangulated-lockscreen.xml</filename>
+    <options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>

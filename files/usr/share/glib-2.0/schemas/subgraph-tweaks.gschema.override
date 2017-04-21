@@ -1,0 +1,82 @@
+[org.gnome.desktop.background]
+picture-options='zoom'
+picture-uri='file:////usr/share/images/desktop-base/subgraph-triangulated.xml'
+
+[org.gnome.desktop.wm.keybindings]
+maximize = ['<Primary><Super>Up','<Super>Up','<Primary><Alt>KP_5']
+minimize = ['<Primary><Alt>KP_0']
+move-to-corner-ne = ['<Primary><Alt>KP_Prior']
+move-to-corner-nw = ['<Primary><Alt>KP_Home']
+move-to-corner-se = ['<Primary><Alt>KP_Next']
+move-to-corner-sw = ['<Primary><Alt>KP_End']
+move-to-side-e = ['<Primary><Alt>KP_Right']
+move-to-side-n = ['<Primary><Alt>KP_Up']
+move-to-side-s = ['<Primary><Alt>KP_Down']
+move-to-side-w = ['<Primary><Alt>KP_Left']
+toggle-maximized = ['<Primary><Alt>KP_5']
+toggle-shaded = ['<Primary><Alt>s']
+unmaximize = ['<Primary><Super>Down','<Super>Down','<Alt>F5']
+show-desktop = ['<Primary><Super>d','<Primary><Alt>d','<Super>d']
+
+[org.gnome.desktop.wm.preferences]
+button-layout=':minimize,maximize,close'
+mouse-button-modifier='<Alt>'
+titlebar-font='Noto Sans Bold 11'
+
+[org.gnome.eog.ui]
+sidebar=false
+
+[org.gnome.nautilus.desktop]
+trash-icon-visible=true
+home-icon-visible=true
+
+[org.gnome.nautilus.preferences]                                                  
+automatic-decompression=false                                                     
+install-mime-activation=false    
+
+[org.gnome.eog.ui]
+disable-close-confirmation=true
+
+[org.gnome.desktop.interface]
+font-name="Noto Sans 11"
+monospace-font-name="DejaVu Sans Mono 11"
+document-font-name="Sans 10"
+
+[org.gnome.mutter.keybindings]
+toggle-tiled-left = ['<Primary><Super>Left','<Super>Left']
+toggle-tiled-right = ['<Primary><Super>Right','<Super>Right']
+
+[org.gnome.shell]
+favorite-apps=['torbrowser.desktop', 'coyim.desktop', 'icedove.desktop', 'onionshare.desktop', 'ricochet-im.desktop', 'nautilus.desktop']
+
+[org.gnome.desktop.screensaver]
+show-full-name-in-top-bar=false
+picture-options='zoom'
+picture-uri='file:////usr/share/images/desktop-base/subgraph-triangulated-lockscreen.xml'
+
+[org.gnome.desktop.privacy]
+hide-identity=true
+remember-recent-files=false
+show-full-name-in-top-bar=false
+send-software-usage-stats=false
+report-technical-problems=false
+
+[org.gnome.desktop.media-handling]
+autorun-x-content-start-app=@as []
+autorun-never=true
+autorun-x-content-ignore=['x-content/audio-cdda', 'x-content/video-dvd', 'x-content/audio-player', 'x-content/image-dcf', 'x-content/unix-software', 'x-content/audio-dvd', 'x-content/blank-bd', 'x-content/blank-cd', 'x-content/blank-dvd', 'x-content/blank-hddvd', 'x-content/ebook-reader', 'x-content/image-picturecd', 'x-content/software', 'x-content/video-bluray', 'x-content/video-hddvd', 'x-content/video-svcd', 'x-content/video-vcd', 'x-content/win32-software']
+autorun-x-content-open-folder=@as []
+
+
+[org.gnome.desktop.notifications]
+show-in-lock-screen=false
+
+[org.gnome.desktop.search-providers]
+sort-order=['gnome-contacts.desktop', 'gnome-documents.desktop', 'nautilus.desktop']
+disabled=['nautilus.desktop', 'gnome-documents.desktop', 'gnome-contacts.desktop']
+disable-external=true
+
+[org.gnome.system.location]
+enabled=false
+max-accuracy-level='country'
+
