@@ -1,3 +1,10 @@
+subgraph-defaults (0.8.0-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * git-buildpackage
+
+ -- Alexsandr Kibal <ak@subgraph.com>  Sun, 23 Apr 2017 17:52:54 +0000
+
 subgraph-defaults (0.8) unstable; urgency=medium
 
   * Disabled Nautilus 'automatic-decompression' and 'install-mime-activation'
