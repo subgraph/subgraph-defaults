@@ -5,3 +5,4 @@
 /apps/gnome-terminal/profiles/Default/background_type      "transparent"
 /apps/gnome-terminal/profiles/Default/background_darkness  0.63
 /apps/gnome-terminal/global/confirm_window_close           false
+/org/gnome/desktop/thumbnailers/disable-all                true
