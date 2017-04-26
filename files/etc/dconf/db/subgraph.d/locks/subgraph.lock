@@ -1,0 +1,13 @@
+/org/gnome/nautilus/preferences/show-image-thumbnails
+/org/gnome/nautilus/preferences/executable-text-activation
+/org/gnome/nautilus/preferences/automatic-decompression
+/org/gnome/nautilus/preferences/recursive-search
+/org/gnome/nautilus/preferences/show-directory-item-counts
+/org/gnome/nautilus/preferences/thumbnail-limit
+/org/gnome/desktop/datetime/automatic-timezone
+/org/gnome/desktop/media-handling/autorun-never
+/org/gnome/desktop/search-providers/disable-external
+/org/gnome/system/location/enabled
+/org/gnome/desktop/privacy/remember-recent-files
+/org/gnome/desktop/notifications/show-in-lock-screen
+/org/gnome/online-accounts/whitelisted-providers

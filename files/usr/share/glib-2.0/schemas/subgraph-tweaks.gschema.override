@@ -34,10 +34,7 @@ trash-icon-visible=true
 home-icon-visible=true
 
 [org.gnome.nautilus.preferences]                                                  
-automatic-decompression=false                                                     
 install-mime-activation=false    
-show-image-thumbnails='never'
-executable-text-activation='ask'
 
 [org.gnome.eog.ui]
 disable-close-confirmation=true
@@ -61,14 +58,12 @@ picture-uri='file:////usr/share/images/desktop-base/subgraph-triangulated-locksc
 
 [org.gnome.desktop.privacy]
 hide-identity=true
-remember-recent-files=false
 show-full-name-in-top-bar=false
 send-software-usage-stats=false
 report-technical-problems=false
 
 [org.gnome.desktop.media-handling]
 autorun-x-content-start-app=@as []
-autorun-never=true
 autorun-x-content-ignore=['x-content/audio-cdda', 'x-content/video-dvd', 'x-content/audio-player', 'x-content/image-dcf', 'x-content/unix-software', 'x-content/audio-dvd', 'x-content/blank-bd', 'x-content/blank-cd', 'x-content/blank-dvd', 'x-content/blank-hddvd', 'x-content/ebook-reader', 'x-content/image-picturecd', 'x-content/software', 'x-content/video-bluray', 'x-content/video-hddvd', 'x-content/video-svcd', 'x-content/video-vcd', 'x-content/win32-software']
 autorun-x-content-open-folder=@as []
 
@@ -79,9 +74,7 @@ show-in-lock-screen=false
 [org.gnome.desktop.search-providers]
 sort-order=['gnome-contacts.desktop', 'gnome-documents.desktop', 'nautilus.desktop']
 disabled=['nautilus.desktop', 'gnome-documents.desktop', 'gnome-contacts.desktop']
-disable-external=true
 
 [org.gnome.system.location]
-enabled=false
 max-accuracy-level='country'
 
