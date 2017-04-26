@@ -2,6 +2,9 @@
 picture-options='zoom'
 picture-uri='file:////usr/share/images/desktop-base/subgraph-triangulated.xml'
 
+[org.gnome.desktop.thumbnailers]
+disable-all=true
+
 [org.gnome.desktop.wm.keybindings]
 maximize = ['<Primary><Super>Up','<Super>Up','<Primary><Alt>KP_5']
 minimize = ['<Primary><Alt>KP_0']
@@ -33,6 +36,8 @@ home-icon-visible=true
 [org.gnome.nautilus.preferences]                                                  
 automatic-decompression=false                                                     
 install-mime-activation=false    
+show-image-thumbnails='never'
+executable-text-activation='ask'
 
 [org.gnome.eog.ui]
 disable-close-confirmation=true
