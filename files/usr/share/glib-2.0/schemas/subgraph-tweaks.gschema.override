@@ -2,6 +2,9 @@
 picture-options='zoom'
 picture-uri='file:////usr/share/images/desktop-base/subgraph-triangulated.xml'
 
+[org.gnome.desktop.thumbnailers]
+disable-all=true
+
 [org.gnome.desktop.wm.keybindings]
 maximize = ['<Primary><Super>Up','<Super>Up','<Primary><Alt>KP_5']
 minimize = ['<Primary><Alt>KP_0']
