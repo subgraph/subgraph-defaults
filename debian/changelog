@@ -1,3 +1,9 @@
+subgraph-defaults (0.9.0-1) unstable; urgency=medium
+
+  * Implemented dconf db key and lock files.
+
+ -- David McKinney <mckinney@subgraph.com>  Fri, 26 May 2017 15:15:46 +0000
+
 subgraph-defaults (0.8.0-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
